@@ -164,4 +164,7 @@ data/sssm_full.csv
 data/zillow_region.csv
 data/irsm.csv
 data/sram_combine.csv
-*.csv
+
+data/srsm_combine.csv
+data/srsm_full.csv
+data/zindicators.csv
