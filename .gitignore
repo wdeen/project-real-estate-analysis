@@ -162,3 +162,6 @@ nasdaqdatalinkapikey.txt
 data/issm.csv
 data/sssm_full.csv
 data/zillow_region.csv
+data/irsm.csv
+data/sram_combine.csv
+*.csv
