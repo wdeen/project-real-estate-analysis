@@ -159,3 +159,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 nasdaqdatalinkapikey.txt
+data/issm.csv
+data/sssm_full.csv
+data/zillow_region.csv
+data/irsm.csv
+data/sram_combine.csv
+
+data/srsm_combine.csv
+data/srsm_full.csv
+data/zindicators.csv
