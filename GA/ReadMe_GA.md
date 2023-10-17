@@ -1,8 +1,8 @@
 # United States Interest Rates and Property Market Dynamics
 <p align="center">
-  <img alt="Light" src="./GA/Images/FedRes.jpg" width="45%">
+  <img alt="left" src="./GA/Images/FedRes.jpg" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="./GA/Images/House.jpg" width="45%">
+  <img alt="right" src="./GA/Images/House.jpg" width="45%">
 </p>
 
 ## Instructions
