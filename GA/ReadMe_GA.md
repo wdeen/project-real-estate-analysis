@@ -1,4 +1,4 @@
-# United States Interest Rates and Property Market Dynamics
+<p align="center"># United States Interest Rates and Property Market Dynamics</p>
 <p align="center">
   <img alt="left" src="./Images/FedRes.jpg" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -20,13 +20,13 @@
 
 4. The visualizations are only visible from the "Analysis" section.
 
-## Analysis
+# Analysis
 
 <p align="center">
   <img alt="long-term median sales zillow" src="./Images/Zillow_Median_Long.png" width="100%">
 </p>
 
-# Long-term Median Sale Price
+<p align="center"># Long-term Median Sale Price</p>
 When examining the trends in the Median Sale Price using Zillow's SRAM indicator, a notable pattern emerges. Between 2010 and 2012, the median sale price in the United States displayed a declining trajectory. However, from 2012 onward, there was a distinct shift towards a sustained upward trend. It's important to emphasize that this upward trajectory was not without interruptions; it featured periodic fluctuations with instances of both decline and recovery. The same trend can be observed when using the BIS Real Property Price Index for the U.S real estate market
 
 Several key insights deserve our attention:
@@ -59,13 +59,13 @@ Recent Resurgence (January 2023 - June 2023): From January 2023, there was anoth
 
 # BIS Real Property Price Index for Australia and the United States and Interest Rates for both countries
 
-# United States
+## United States
 The interest rates in the United States have been relatively higher than in Australia over the entire period, with a range from 0.125% to 5.375%. The Real Property Price Index for the United States has generally increased over the years, although it saw some fluctuations. It started around 101 in 2010 and reached approximately 157 in 06-2023. In index terms, it would mean that the same property around 2010 is now 50% more in value. Furthermore, Zillows SRAM indicator which measures the Median Sale Price (Raw, All Homes, Monthly) supports this observations wherein the price from 2010 has almost doubled in 2023.
 
-# Australia
+## Australia
 The interest rates in Australia also saw variation during the period but remained generally lower than in the United States, with a range from 0.125% to 4.10%. The Real Property Price Index in Australia increased over the years, indicating a general upward trend in property prices. It started around 99 in 2010 and reached approximately 122 in 03-2023. In index terms, it would mean that the same property around 2010 is now 22% more in value.
 
-## Conclusion
+# Conclusion
 
 The United States generally maintained its housing market price uptrend compared to Australia may be due to the following conditions:
 
@@ -77,7 +77,7 @@ In Australia, where fixed-rate terms are shorter, property prices might respond 
 The availability of assumable loans in the U.S. can influence the housing market. An assumable loan allows a buyer to take over the seller's existing mortgage at its original terms. This can make homes more attractive to buyers and potentially support property values.
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
 
-# OLS Regression Model Explainer
+## OLS Regression Model Explainer
 
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
 
