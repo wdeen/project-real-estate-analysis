@@ -86,7 +86,7 @@ The regression results show the output of an Ordinary Least Squares (OLS) regres
 ## **OLS Regression Model Explainer**
 
 <p align="center">
-  <img alt="OLS results" src="./Images/OLS Regression Results.jpg" width="100%">
+  <img alt="OLS results" src="./Images/OLS Regression Results.JPG" width="100%">
 </p>
 
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
