@@ -1,12 +1,12 @@
 # **Nasdaq-Zillow API: USA Real Estate Data Analysis**
 
-<img src=".Resources/Images/usa_homes.jpeg" width="750">
+<img src="./Resources/Images/usa_homes.jpeg" width="750">
 
 
 ## Table of Contents
 * [Project Contributors](#project-contributors)
 * [Overview](#overview)
-* [Topic 1: Seasonal Changes on Real Estate Inventory (per USA Region)](#topic-1)
+* [Topic 1: Seasonal Changes on Real Estate Inventory (per USA Region)](#topic-1-effect-of-seasonal-changes-on-real-estate-inventory (per-usa-region))
 * [Final Repository Structure](#final-repository-structure)
 
 ## Project Contributors
@@ -34,7 +34,7 @@ In demonstrating our overall data analysis, we each primarily (but not exclusive
 
 
 
-## Topic 1: Seasonal Changes on Real Estate Inventory (per USA Region)
+## Topic 1: Effect of Seasonal Changes on Real Estate Inventory (per USA Region)
 
 
 ## Final Repository Structure
