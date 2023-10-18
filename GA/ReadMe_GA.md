@@ -1,11 +1,11 @@
-<p align="center"># United States Interest Rates and Property Market Dynamics</p>
+# **United States Interest Rates and Property Market Dynamics**
 <p align="center">
   <img alt="left" src="./Images/FedRes.jpg" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="right" src="./Images/House.jpg" width="45%">
 </p>
 
-## Instructions
+## **Instructions**
 **_Please follow these instructions before exploring the analysis:_**
 
 1. Run all of the code blocks in Jupyter Notebook to ensure that all dataframe tables and visualizations are created.
@@ -20,13 +20,14 @@
 
 4. The visualizations are only visible from the "Analysis" section.
 
-# Analysis
+
+## **Analysis**
 
 <p align="center">
   <img alt="long-term median sales zillow" src="./Images/Zillow_Median_Long.png" width="100%">
 </p>
 
-<p align="center"># Long-term Median Sale Price</p>
+## **Long-term Median Sale Price**
 When examining the trends in the Median Sale Price using Zillow's SRAM indicator, a notable pattern emerges. Between 2010 and 2012, the median sale price in the United States displayed a declining trajectory. However, from 2012 onward, there was a distinct shift towards a sustained upward trend. It's important to emphasize that this upward trajectory was not without interruptions; it featured periodic fluctuations with instances of both decline and recovery. The same trend can be observed when using the BIS Real Property Price Index for the U.S real estate market
 
 Several key insights deserve our attention:
@@ -37,11 +38,12 @@ Real estate investors, including institutional entities, emerged as prominent ac
 A distinct dip in median property prices became evident in the middle of 2022, aligning with the Federal Reserve's decision to raise interest rates.
 Despite these fluctuations, an overall trend emerges, characterized by a consistent long-term growth in median sale prices.
 
+
 <p align="center">
-  <img alt="long-term median sales zillow" src="./Images/Zillow_Median_Short.png" width="100%">
+  <img alt="short-term median sales zillow" src="./Images/Zillow_Median_Short.png" width="100%">
 </p>
 
-# Median Sale Price during the Pandemic and the Rise of Interest Rates
+## **Median Sale Price during the Pandemic and the Rise of Interest Rates**
 
 Economic Stimulus and Pandemic Impact (March 2020 - May 2020): Median house prices plateaued, reflecting the uncertainty and economic challenges posed by the pandemic, as well as the declaration of a U.S. public health emergency. Buyers and sellers were cautious due to these unprecedented circumstances.
 
@@ -57,15 +59,19 @@ Decline and Recovery (June 2022 - January 2023): After the peak, there was a per
 
 Recent Resurgence (January 2023 - June 2023): From January 2023, there was another upswing in median house prices, ultimately reaching the same peak as in June 2022 by June 2023. This resurgence could be attributed to various factors, including improved economic conditions, continued demand for housing, and potential adjustments in the housing market.
 
-# BIS Real Property Price Index for Australia and the United States and Interest Rates for both countries
+## **BIS Real Property Price Index for Australia and the United States and Interest Rates for both countries**
 
-## United States
+<p align="center">
+  <img alt="BIS" src="./Images/US_AU_BIS_RPPI.png" width="100%">
+</p>
+
+### **United States**
 The interest rates in the United States have been relatively higher than in Australia over the entire period, with a range from 0.125% to 5.375%. The Real Property Price Index for the United States has generally increased over the years, although it saw some fluctuations. It started around 101 in 2010 and reached approximately 157 in 06-2023. In index terms, it would mean that the same property around 2010 is now 50% more in value. Furthermore, Zillows SRAM indicator which measures the Median Sale Price (Raw, All Homes, Monthly) supports this observations wherein the price from 2010 has almost doubled in 2023.
 
-## Australia
+### **Australia**
 The interest rates in Australia also saw variation during the period but remained generally lower than in the United States, with a range from 0.125% to 4.10%. The Real Property Price Index in Australia increased over the years, indicating a general upward trend in property prices. It started around 99 in 2010 and reached approximately 122 in 03-2023. In index terms, it would mean that the same property around 2010 is now 22% more in value.
 
-# Conclusion
+## **Conclusion**
 
 The United States generally maintained its housing market price uptrend compared to Australia may be due to the following conditions:
 
@@ -77,28 +83,37 @@ In Australia, where fixed-rate terms are shorter, property prices might respond 
 The availability of assumable loans in the U.S. can influence the housing market. An assumable loan allows a buyer to take over the seller's existing mortgage at its original terms. This can make homes more attractive to buyers and potentially support property values.
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
 
-## OLS Regression Model Explainer
+## **OLS Regression Model Explainer**
+
+<p align="center">
+  <img alt="OLS results" src="./Images/OLS Regression Results.jpg" width="100%">
+</p>
 
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
 
 Here's an interpretation of the key elements of the regression results:
 
-R-squared (R²):
+**1. R-squared (R²):**
 
-R-squared measures the goodness of fit of the model, representing the proportion of the variance in the dependent variable (property prices) that can be explained by the independent variable (interest rates). An R-squared value of 0.345 indicates that approximately 34.5% of the variation in property prices can be explained by changes in interest rates. This suggests that interest rates have some influence on property prices, but there are other factors at play as well.
-F-statistic:
+- R-squared measures the goodness of fit of the model, representing the proportion of the variance in the dependent variable (property prices) that can be explained by the independent variable (interest rates). An R-squared value of 0.345 indicates that approximately 34.5% of the variation in property prices can be explained by changes in interest rates. This suggests that interest rates have some influence on property prices, but there are other factors at play as well.
 
-The F-statistic tests the overall significance of the regression model. In this case, the F-statistic is 85.42, and the associated p-value is very close to zero (1.33e-16). This low p-value indicates that the model as a whole is statistically significant, implying that at least one of the independent variables (interest rates) has a significant impact on the dependent variable (property prices).
-Coefficients:
+**2. F-statistic:**
 
-The coefficient of the "const" term is approximately 2.07e+05. This represents the estimated property price when the United States interest rate is zero. In practical terms, it's the intercept of the regression line.
+- The F-statistic tests the overall significance of the regression model. In this case, the F-statistic is 85.42, and the associated p-value is very close to zero (1.33e-16). This low p-value indicates that the model as a whole is statistically significant, implying that at least one of the independent variables (interest rates) has a significant impact on the dependent variable (property prices).
+
+**3. Coefficients:**
+
+- The coefficient of the "const" term is approximately 2.07e+05. This represents the estimated property price when the United States interest rate is zero. In practical terms, it's the intercept of the regression line.
 The coefficient for "United States" interest rates is approximately 2.758e+04. This suggests that for each unit increase in United States interest rates, property prices are estimated to increase by approximately 27,580 units.
-P-values:
 
-The p-value associated with the "United States" interest rates coefficient is very close to zero, indicating that the interest rates variable is statistically significant. This supports the Alternative Hypothesis (H1) that interest rates have a statistically significant effect on property prices.
-Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis:
+**4. P-values:**
 
-These statistics are used to assess the assumptions of the regression model. An important point to note is the very low Durbin-Watson statistic (close to zero), which suggests potential issues with autocorrelation in the residuals, meaning that the errors may not be independent over time. This could affect the reliability of the model.
-Notes:
+- The p-value associated with the "United States" interest rates coefficient is very close to zero, indicating that the interest rates variable is statistically significant. This supports the Alternative Hypothesis (H1) that interest rates have a statistically significant effect on property prices.
+
+**5. Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis:**
+
+- These statistics are used to assess the assumptions of the regression model. An important point to note is the very low Durbin-Watson statistic (close to zero), which suggests potential issues with autocorrelation in the residuals, meaning that the errors may not be independent over time. This could affect the reliability of the model.
+
+**Notes:**
 
 The standard errors assume that the covariance matrix of the errors is correctly specified. This is an assumption of the OLS model.
