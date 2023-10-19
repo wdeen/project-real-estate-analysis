@@ -32,7 +32,7 @@ In demonstrating our overall data analysis, we each primarily (but not exclusive
 
 
 ## Final Repository Structure
-
+```
 ├── README.md
 ├── Group6_Project1.html
 ├── Group6_Project1.ipynb
@@ -45,6 +45,7 @@ In demonstrating our overall data analysis, we each primarily (but not exclusive
     ├── GabrielAdriano_SlideDeck.pptx
     └── JunLengTan_SlideDeck.pptx
     └── WassimDeen_SlideDeck.pptx
+```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
