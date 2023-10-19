@@ -1,8 +1,8 @@
 # Median House Price Change in various cities over time
 <p align="center">
-  <img alt="left" src="./Images/FedRes.jpg" width="45%">
+  <img alt="cities" src="./Images/3citiesOnMap.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="right" src="./Images/House.jpg" width="45%">
+  <img alt="covid effect" src="./Images/beforeAndAfterCovid.png" width="45%">
 </p>
 
 ## Instructions
