@@ -143,7 +143,7 @@ The variability of For-Sale Inventory in the given USA Region across seasons IS 
 
 **[REJECT Null Hypothesis (H0)]** With 95% confidence, the variability of the For-Sale Inventory in the Midwest Region across seasons is statistically significant.
 
-#### **USA South Region**
+## USA South Region (Time Series / F-Statistic / p-Value)
 
 <img src="./Images/South.png" width="100%">
 
@@ -152,7 +152,7 @@ The variability of For-Sale Inventory in the given USA Region across seasons IS 
 
 **[FAILED TO REJECT Null Hypothesis (H0)]** At 5% risk level, the variability of the For-Sale Inventory in the South Region across seasons is NOT statistically significant.
 
-#### **USA West Region**
+## USA West Region (Time Series / F-Statistic / p-Value)
 
 <img src="./Images/West.png" width="100%">
 
@@ -165,9 +165,9 @@ The variability of For-Sale Inventory in the given USA Region across seasons IS 
 ## ANOVA Test Results (Summary)
 
 <p align="center">
-  <img alt="left" src="./Images/regions_reject_h0.png" width="100%">
+  <img alt="left" src="./Images/regions_reject_h0.png" width="60%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="right" src="./Images/regions_failed_reject_h0.png" width="100%">
+  <img alt="right" src="./Images/regions__failed_reject_h0.png" width="60%">
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
