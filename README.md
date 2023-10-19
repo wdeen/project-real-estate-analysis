@@ -62,7 +62,7 @@ By extension, this also suggests that the rise and fall of For-Sale Inventory ac
 
 
 <p align="center">
-  <img src="./Images/usa_regions.png" width="45%">
+  <img src="./Images/usa_regions.png" width="100%">
 </p>
 
 As a result, the Region Classification from the United States Census is used to split the country into four large regions:
@@ -84,7 +84,7 @@ For more information: https://www.timeanddate.com/calendar/aboutseasons.html
 
 
 <p align="center">
-  <img src="./Images/iraw_dataset.png" width="45%">
+  <img src="./Images/iraw_dataset.png" width="100%">
 </p>
 
 Using the Zillow Real Estate Data (via Nasdaq Data Link API), I extracted all available raw data of For-Sale Inventory (All Homes) where each data point represents a week for a USA State from late CY 2017 to CY 2023 so far. Each datapoint also represents data for metro region only, which is why the analysis covers exclusively Metropolitan USA.
@@ -165,9 +165,9 @@ The variability of For-Sale Inventory in the given USA Region across seasons IS 
 ## ANOVA Test Results (Summary)
 
 <p align="center">
-  <img alt="left" src="./Images/regions_reject_h0.png" width="45%">
+  <img alt="left" src="./Images/regions_reject_h0.png" width="100%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="right" src="./Images/regions_failed_reject_h0.png" width="45%">
+  <img alt="right" src="./Images/regions_failed_reject_h0.png" width="100%">
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
