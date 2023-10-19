@@ -165,9 +165,9 @@ The variability of For-Sale Inventory in the given USA Region across seasons IS 
 ## ANOVA Test Results (Summary)
 
 <p align="center">
-  <img alt="left" src="./Images/regions_reject_h0.png" width="60%">
+  <img alt="left" src="./Images/regions_reject_h0.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="right" src="./Images/regions__failed_reject_h0.png" width="60%">
+  <img alt="right" src="./Images/regions__failed_reject_h0.png" width="45%">
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
