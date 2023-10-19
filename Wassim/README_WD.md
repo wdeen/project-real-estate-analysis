@@ -1,11 +1,11 @@
 # **Nasdaq-Zillow API: USA Real Estate Data Analysis**
 
 <p align="center">
-<img src="./Images/zillow_logo.png" width="750">
+<img src="./Images/zillow_logo.png" width="25%">
 </p>
 
 <p align="center">
-<img src="./Images/usa_homes.jpeg" width="750">
+<img src="./Images/usa_homes.jpeg" width="45%">
 </p>
 
 
@@ -42,7 +42,7 @@ In demonstrating our overall data analysis, we each primarily (but not exclusive
 3. **SciPy** - Various Statistical & Hypothesis Testing
 
 
-## Effect of Seasonal Changes on Metropolitan Real Estate Inventory (per Metro USA Region)
+## Effect of Seasonal Changes on Metropolitan Real Estate Inventory (per USA Region)
 
 <p align="center">
   <img src="./Images/usa_census_regions.png" width="45%">
@@ -77,8 +77,8 @@ There is NO statistically significant difference in the For-Sale Inventory acros
 | RI         | Rhode Island      |
 | VT         | Vermont           |
 
-**- F-statistic = 3.946703358362805**
-**- p-value = 0.008943123143410924**
+- **F-statistic = 3.946703358362805**
+- **p-value = 0.008943123143410924**
 
 **[REJECT Null Hypothesis (H0)]** With 95% confidence, the variability of the For-Sale Inventory in the Northeast Region across seasons is statistically significant.
 
@@ -101,8 +101,8 @@ There is NO statistically significant difference in the For-Sale Inventory acros
 | SD         | South Dakota      |
 | WI         | Wisconsin         |
 
-**- F-statistic = 5.875017566328791**
-**- p-value = 0.0006887615533247862**
+- **F-statistic = 5.875017566328791**
+- **p-value = 0.0006887615533247862**
 
 **[REJECT Null Hypothesis (H0)]** With 95% confidence, the variability of the For-Sale Inventory in the Midwest Region across seasons is statistically significant.
 
@@ -130,8 +130,8 @@ There is NO statistically significant difference in the For-Sale Inventory acros
 | VA         | Virginia             |
 | WV         | West Virginia        |
 
-**- F-statistic = 1.3639286436735938**
-**- p-value = 0.2543987237874858**
+- **F-statistic = 1.3639286436735938**
+- **p-value = 0.2543987237874858**
 
 **[FAILED TO REJECT Null Hypothesis (H0)]** At 5% risk level, the variability of the For-Sale Inventory in the South Region across seasons is NOT statistically significant.
 
@@ -155,8 +155,8 @@ There is NO statistically significant difference in the For-Sale Inventory acros
 | WA         | Washington       |
 | WY         | Wyoming          |
 
-**- F-statistic = 9.395782823063112**
-**- p-value = 6.692988590780285e-06**
+- **F-statistic = 9.395782823063112**
+- **p-value = 6.692988590780285e-06**
 
 **[REJECT Null Hypothesis (H0)]** With 95% confidence, the variability of the For-Sale Inventory in the West Region across seasons is statistically significant.
 
