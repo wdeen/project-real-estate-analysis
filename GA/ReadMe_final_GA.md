@@ -1,4 +1,7 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # **United States Interest Rates and Property Market Dynamics**
+### Presented by: Gabriel Adriano for Monash Data Bootcamp 2023
+
 <p align="center">
   <img alt="left" src="./Images/FedRes.jpg" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -89,9 +92,27 @@ The regression results show the output of an Ordinary Least Squares (OLS) regres
   <img alt="OLS results" src="./Images/OLS Regression Results.JPG" width="100%">
 </p>
 
+### **Null Hypothesis (H0):**
+
+There is no statistically significant relationship between changes in interest rates and property prices in the United States.
+
+### **Alternative Hypothesis (H1):**
+There is a statistically significant relationship between changes in interest rates and property prices in the United States.
+
+### **Results:**
+
+**P-value for the 'interest rate' coefficient:** 1.3320868257407982e-16
+**Critical F-value at alpha** = 0.05: 3.899502435176602
+
+**F-statistic:** 85.42 is much larger than Critical F-value: 3.8995, it indicates that the model is statistically significant at the 0.05 significance level.
+
+This suggests that interest rates has a statistically significant effect on the property prices. This is a strong indication that the regression model is meaningful and that the independent variables collectively explain a significant portion of the variation in property prices.
+
+**Reject the null hypothesis. Interest rates have a statistically significant effect on property prices.**
+
 The regression results show the output of an Ordinary Least Squares (OLS) regression model. This model examines the relationship between interest rates in the United States and property prices.
 
-Here's an interpretation of the key elements of the regression results:
+**_Here's an interpretation of the key elements of the regression results:_**
 
 **1. R-squared (R²):**
 
@@ -115,5 +136,8 @@ The coefficient for "United States" interest rates is approximately 2.758e+04. T
 - These statistics are used to assess the assumptions of the regression model. An important point to note is the very low Durbin-Watson statistic (close to zero), which suggests potential issues with autocorrelation in the residuals, meaning that the errors may not be independent over time. This could affect the reliability of the model.
 
 **Notes:**
-
 The standard errors assume that the covariance matrix of the errors is correctly specified. This is an assumption of the OLS model.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
