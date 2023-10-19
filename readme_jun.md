@@ -68,8 +68,9 @@
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p><p align="center">
   <img alt="covid effect" src="./Images/corr_withNationalTrend.png" width="45%">
-</p>
-## A brief analysis of house prices before and during covid  
+</p>  
+
+## A brief analysis of house prices before and during covid    
   - It appears that although the pandemic does not affect the cycle of the house price much (still around 1 year), it does amaplify the magnitude of the cycle (there is a bigger difference between the trough and crest of the cycle).  
   - It also appears during covid the price seems less stable as there is more volatility as seen from multiple mini-cycles towards the beginning of 2022.
 <p align="center">
