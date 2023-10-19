@@ -2,7 +2,7 @@
 # **Zillow: USA Real Estate Data Analysis**
 
 <p align="center">
-<img src="./Images/project_title.png" width="100%">
+<img src="Images/project_title.png" width="100%">
 </p>
 
 ## Project Contributors
